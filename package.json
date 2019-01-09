@@ -1,0 +1,46 @@
+{
+    "name": "com.wilaya.chat",
+    "displayName": "tawassol",
+    "version": "1.0.0",
+    "description": "chat application ",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Techov Team",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "cordova-android": "^7.0.0",
+        "cordova-browser": "^5.0.3",
+        "cordova-ios": "^4.5.4",
+        "cordova-plugin-whitelist": "^1.3.3",
+        "bcryptjs": "*",
+        "body-parser": "*",
+        "connect-flash": "*",
+        "cookie-parser": "^1.4.1",
+        "express": "*",
+        "express-handlebars": "*",
+        "express-messages": "*",
+        "express-session": "*",
+        "express-validator": "*",
+        "mysql": "^2.15.0",
+        "passport": "^0.4.0",
+        "passport-http": "^0.3.0",
+        "passport-local": "^1.0.0",
+        "socket.io": "^2.0.4",
+        "socket.io-client": "^2.0.4"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {}
+        },
+        "platforms": [
+            "ios",
+            "android",
+            "browser"
+        ]
+    },
+    "repository": {
+        "private": true
+    }
+}
