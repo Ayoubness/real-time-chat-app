@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Kodinger">
+    <title>Welcome to tawassol</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/my-login.css">
+</head>
+
+<body class="my-login-page">
+    <section class="h-100">
+        <div class="container h-100">
+            <div class="row justify-content-md-center h-100">
+                <div class="card-wrapper">
+                    <div class="brand">
+                        <img src="img/logo.jpg">
+                    </div>
+                    <div class="card fat">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                Créer un nouveau compte</h4>
+                            <form method="POST">
+
+                                <div class="form-group">
+                                    <label for="name">Nom :</label>
+                                    <input id="nomtxt" type="text" class="form-control" name="name" required autofocus>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="name">Prenom :</label>
+                                    <input id="prenomtxt" type="text" class="form-control" name="prenom" required autofocus>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label for="name">CIN :</label>
+                                    <input id="cintxt" type="text" class="form-control" name="cin" required autofocus>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="name">Tel :</label>
+                                    <input id="teltxt" type="text" class="form-control" name="tele" required autofocus>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">E-Mail:</label>
+                                    <input id="email" type="email" class="form-control" name="email" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="name">Code Admin:</label>
+                                    <input id="codetxt" type="text" class="form-control" name="code" required data-eye>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="password">mote de passe:</label>
+                                    <input id="password" type="password" class="form-control" name="password" required data-eye>
+                                </div>
+
+                                <div class="form-group">
+                                    <label>
+										<input type="checkbox" name="aggree" value="1"> 
+										   J'accepte les termes et conditions
+									</label>
+                                </div>
+
+                                <div class="form-group no-margin">
+                                    <button type="submit" class="btn btn-primary btn-block">
+										Register
+									</button>
+                                </div>
+                                <div class="margin-top20 text-center">
+
+                                    Vous avez déjà un compte? <a href="index.html">connecter</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="footer">
+                        © Copyright 2018 préfecture Agadir Idaotanane
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/my-login.js"></script>
+</body>
+
+</html>

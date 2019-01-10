@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="techov" content="Kodinger">
+    <title>Welcome to tawassol</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/my-login.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/my-login.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+
+<body class="my-login-page">
+    <section class="h-100">
+        <div class="container h-100">
+            <div class="row justify-content-md-center h-100">
+                <div class="card-wrapper">
+                    <div class="brand">
+                        <img src="img/logo.jpg">
+                    </div>
+                    <div class="card fat">
+                        <div class="card-body">
+                            <h4 class="card-title">connecter</h4>
+                            <form id="messageform">
+
+                                <div class="form-group">
+                                    <label for="email">E-Mail:</label>
+
+                                    <input id="emailtxt" type="email" class="form-control" name="email" value="" required autofocus>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="password">Mote de Passe:
+										<a href="forgot.html" class="float-right">
+											Mot de passe oublie?
+										</a>
+									</label>
+                                    <input id="passtxt" type="password" class="form-control" name="password" required data-eye>
+                                </div>
+
+                                <div class="form-group">
+                                    <label>
+										<input type="checkbox" name="remember">       rester connecté
+									</label>
+                                </div>
+
+                                <div class="form-group no-margin">
+                                    <button type="submit" class="btn btn-primary btn-block">
+										Login
+									</button>
+                                </div>
+                                <div class="margin-top20 text-center">
+                                    Vous n'avez pas de compte? <a href="register.html">Créer un</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="footer">
+                        © Copyright 2018 préfecture Agadir Idaotanane
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+
+
+</body>
+
+</html>
